@@ -17,5 +17,6 @@ avi.last_name = "Flombaum"
 some_knowledge = avi.teach 
 
 kayla.learn(some_knowledge)
+Kayla.learn(some_knowledge)
 
-puts "Kayla just learned this important knowledge: '#{kayla.knowledge.first}' from Avi"
+puts "Kayla just learned this important knowledge: '#{kayla.knowledge.first.second}' from Avi"
